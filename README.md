@@ -9,7 +9,7 @@ Some real word applications of object detection include : self-driving car, trac
 **Requirements & Installation:**
 
 1. First things first:
-> Download tensorflow/models repository from this [link](https://github.com/tensorflow/models).
+`Download tensorflow/models repository from this [link](https://github.com/tensorflow/models).`
 
 2. Create new folder named TensorflowObjDet in C:\.
 
@@ -39,14 +39,20 @@ lxml
 7. Open Anaconda Command prompt
 
 8. Create virtual enviroment by executing :
-`conda create -n TensorflowVirtEnv`
+```
+conda create -n TensorflowVirtEnv
+```
 
 9. Activate created enviroment:
-`activate TensorflowVirtEnv`
+````
+activate TensorflowVirtEnv
+```
 
 10. Install required TensorFlow version in this enviroment by executing one of below commands:
+```
 CPU version: `pip install tensorflow`
 GPU version: `pip install tensorflow-gpu`
+```
 **Note:**_If having any problem installing tensorflow, follow steps on this [link](https://www.tensorflow.org/install/)._
 
 11. Run below command in same Command prompt to install all required packages:
