@@ -11,7 +11,7 @@ Some real word applications of object detection include : self-driving car, trac
 1. First things first:
 >Download tensorflow/models repository from this [link](https://github.com/tensorflow/models).
 <br/><br/>
-2. Create new folder named TensorflowObjDet in C:\.
+2. Create new folder named TensorflowObjDet in `C:\`.
 <br/><br/>
 3. Extract downloaded `tensorflow/model` repository in this TensorflowObjDet folder.
 <br/><br/>
@@ -74,4 +74,14 @@ set PATH=%PATH%;C:\TensorflowObjDet\models;C:\TensorflowObjDet\models\research;C
 ```
 >**Note:** _This must be executed every time you open terminal._
 <br/><br/>
-
+15. Change directory by executing following command:
+```
+cd ..
+```
+<br/><br/>
+16. Execute following commands one by one:
+```
+python setup.py build
+python setup.py install
+```
+<br/><br/>
