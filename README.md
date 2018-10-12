@@ -45,14 +45,14 @@ conda create -n TensorflowVirtEnv
 ```
 activate TensorflowVirtEnv
 ```
-<br/>
+<br/><br/><br/>
 10. Install required TensorFlow version in this enviroment by executing one of below commands:
 ```
 CPU version: `pip install tensorflow`
 GPU version: `pip install tensorflow-gpu`
 ```
 >**Note:**_If having any problem installing tensorflow, follow steps on this [link](https://www.tensorflow.org/install/)._
-<br/>
+<br/><br/>
 11. Run below command in same Command prompt to install all required packages:
 ```
 conda install -r reqs.txt
