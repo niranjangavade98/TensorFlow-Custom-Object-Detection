@@ -7,7 +7,7 @@ It provides us a much better understanding of an image as a whole as opposed to 
 Some real word applications of object detection include : self-driving car, tracking objects, face detection, etc.
 <br/><br/><br/><br/>
 ## **Requirements & Installation:**
-<br/><br/><br/>
+<br/><br/>
 1. First things first:
 >Download tensorflow/models repository from this [link](https://github.com/tensorflow/models).
 <br/><br/>
@@ -20,7 +20,7 @@ Some real word applications of object detection include : self-driving car, trac
 5. Download [this](https://github.com/niranjangavade5/TensorFlow-Custom-Object-Detection) repository & extract all files directly in 
 `C:\TensorflowObjDet\models\research\object-detection`
 <br/><br/>
-6. You should atleast have _python 3.0 or above_ version & _Anaconda_ installed on your system.
+6. You should atleast have _python 3.0 or above_ version & _Anaconda_ installed on your system.<br/>
 **Required packages:**
 ```
 protobuf
