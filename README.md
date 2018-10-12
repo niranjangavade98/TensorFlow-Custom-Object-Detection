@@ -9,11 +9,11 @@ Some real word applications of object detection include : self-driving car, trac
 
 
 
-**Requirements & Installation:**
+## **Requirements & Installation:**
 
 
 1. First things first:
-`Download tensorflow/models repository from this [link](https://github.com/tensorflow/models).`
+>Download tensorflow/models repository from this [link](https://github.com/tensorflow/models).
 
 
 2. Create new folder named TensorflowObjDet in C:\.
@@ -42,7 +42,7 @@ pandas
 numpy
 lxml
 ```
-**Before installing these packages you have to create a virtual enviroment for Tensorflow.*
+**Before installing these packages you have to create a virtual enviroment for Tensorflow.**
 
 
 7. Open Anaconda Command prompt
