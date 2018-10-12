@@ -11,19 +11,20 @@ Some real word applications of object detection include : self-driving car, trac
 1. First things first:
 > Download tensorflow/models repository from this [link](https://github.com/tensorflow/models).
 
-2. Create new folder named TensorflowObjDet.
+2. Create new folder named TensorflowObjDet in C:\.
 
-3. Extract downloaded tensorflow/model repository in this TensorflowObjDet.
+3. Extract downloaded `tensorflow/model` repository in this TensorflowObjDet folder.
 
 4. Rename the models-master folder as models.
 
-5. Download [this]() repository & extract all files directly in 
-C:\TensorflowObjDet\models\research\object-detection 
+5. Download [this](https://github.com/niranjangavade5/TensorFlow-Custom-Object-Detection) repository & extract all files directly in 
+`C:\TensorflowObjDet\models\research\object-detection`
 
-You should atleast have python 3.0 or above version & Anaconda installed on your system.
+6. You should atleast have _python 3.0 or above_ version & _Anaconda_ installed on your system.
 
-Required packages:
--c anaconda protobuf
+**Required packages:**
+```
+protobuf
 jupyter
 opencv-python
 matplotlib
@@ -31,32 +32,34 @@ pillow
 pandas
 numpy
 lxml
+```
 
-Before installing these packages you have to create a virtual enviroment for Tensorflow.
+**Before installing these packages you have to create a virtual enviroment for Tensorflow.*
 
-Open Anaconda Command prompt
+7. Open Anaconda Command prompt
 
-Create virtual enviroment by executing :
-conda create -n TensorflowVirtEnv
+8. Create virtual enviroment by executing :
+`conda create -n TensorflowVirtEnv`
 
-Activate created enviroment:
-activate TensorflowVirtEnv
+9. Activate created enviroment:
+`activate TensorflowVirtEnv`
 
-Install TensorFlow in this enviroment by executing one of below commands:
-CPU version: pip install tensorflow 
-GPU version: pip install tensorflow-gpu
+10. Install required TensorFlow version in this enviroment by executing one of below commands:
+CPU version: `pip install tensorflow`
+GPU version: `pip install tensorflow-gpu`
+**Note:**_If having any problem installing tensorflow, follow steps on this [link](https://www.tensorflow.org/install/)._
 
-Run below command in same Command prompt to install all required packages:
-conda install -r reqs.txt
+11. Run below command in same Command prompt to install all required packages:
+`conda install -r reqs.txt`
 
-Now change working directory by executing following command:
-cd C:\TensorflowObjDet\models\research\object-detection\
+12. Now change working directory by executing following command:
+`cd C:\TensorflowObjDet\models\research\object-detection\`
 
-Compile the Protobuf libraries by executing following command:
+13. Compile the Protobuf libraries by executing following command:
 protoc protos/*.proto --python_out=.
 
-Set enviroment by executing following command:
-set PATH=%PATH%;C:\TensorflowObjDet\models;C:\TensorflowObjDet\models\research;C:\TensorflowObjDet\models\research\slim
-Note: This must be executed every time you open terminal.
+14. Set enviroment path by executing following command:
+`set PATH=%PATH%;C:\TensorflowObjDet\models;C:\TensorflowObjDet\models\research;C:\TensorflowObjDet\models\research\slim`
+**Note:** _This must be executed every time you open terminal._
 
 
