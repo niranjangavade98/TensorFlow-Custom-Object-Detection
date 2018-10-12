@@ -14,14 +14,13 @@ Some real word applications of object detection include : self-driving car, trac
 2. Create new folder named TensorflowObjDet in C:\.
 <br/><br/>
 3. Extract downloaded `tensorflow/model` repository in this TensorflowObjDet folder.
-<br/><br/><br/><br/><br/><br/>
+<br/><br/>
 4. Rename the models-master folder as models.
-<br/><br/><br/><br/><br/>
+<br/><br/>
 5. Download [this](https://github.com/niranjangavade5/TensorFlow-Custom-Object-Detection) repository & extract all files directly in 
 `C:\TensorflowObjDet\models\research\object-detection`
-<br/><br/><br/><br/>
+<br/><br/>
 6. You should atleast have _python 3.0 or above_ version & _Anaconda_ installed on your system.
-
 **Required packages:**
 ```
 protobuf
@@ -34,7 +33,7 @@ numpy
 lxml
 ```
 >**Note:** _Before installing these packages you have to create a virtual enviroment for Tensorflow._
-<br/><br/><br/>
+<br/><br/>
 7. Open Anaconda Command prompt
 <br/><br/>
 8. Create virtual enviroment by executing :
@@ -46,7 +45,7 @@ conda create -n TensorflowVirtEnv
 ```
 activate TensorflowVirtEnv
 ```
-<br/>
+<br/><br/>
 10. Install required TensorFlow version in this enviroment by executing one of below commands:
 ```
 CPU version: `pip install tensorflow`
@@ -68,7 +67,7 @@ cd C:\TensorflowObjDet\models\research\object-detection\
 ```
 protoc protos/*.proto --python_out=.
 ```
-<br/><br/><br/>
+<br/><br/>
 14. Set enviroment path by executing following command:
 ```
 set PATH=%PATH%;C:\TensorflowObjDet\models;C:\TensorflowObjDet\models\research;C:\TensorflowObjDet\models\research\slim
