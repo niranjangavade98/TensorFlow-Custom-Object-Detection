@@ -99,11 +99,10 @@ cd object-detection
 ## **Setting train/test data & Creating `.csv` files**
 <br/><br/>
 1. Place train `.jpg` & their repective `.xml` files(labels) in train folder
+> **Note :**_You can download train & test data from [here](https://www.kaggle.com/c/5408/download-all)._
 <br/><br/>
 2. Place test `.jpg` & their repective `.xml` files(labels) in test folder
 > **Note :**_For creating .xml files(labels) you can use [this](https://github.com/tzutalin/labelImg) great open source image labelling tool. Repositories README.md file has information on installing & using it._
-<br/>
-> **Note :**_You can download train & test data from [here](https://www.kaggle.com/c/5408/download-all)._
 <br/><br/>
 4. Run the following command to create `train.csv` & `test.csv` files
 ```
