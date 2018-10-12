@@ -127,7 +127,7 @@ python create_tf_record.py --csv_input=test_labels.csv --image_dir=test --output
 <br/><br/>
 1. Open `labelmap.pbtxt` file in `traning` folder
 <br/><br/>
-2. Replace the label map present according to classes you have in your images & save the file
+2. Change the label map present according to classes you have in your images & save the file
 <br/><br/><br/>
 ## **Download Base Model**
 <br/><br/>
