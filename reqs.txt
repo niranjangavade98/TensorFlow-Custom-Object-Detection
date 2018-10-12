@@ -1,0 +1,14 @@
+-c anaconda protobuf
+jupyter
+
+opencv-python
+
+matplotlib
+
+pillow
+
+pandas
+
+numpy
+
+lxml
