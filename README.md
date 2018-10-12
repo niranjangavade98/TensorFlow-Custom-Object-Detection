@@ -47,9 +47,13 @@ activate TensorflowVirtEnv
 ```
 <br/><br/><br/>
 10. Install required TensorFlow version in this enviroment by executing one of below commands:
+CPU version: 
 ```
-CPU version: `pip install tensorflow`
-GPU version: `pip install tensorflow-gpu`
+pip install tensorflow
+```
+GPU version:
+```
+pip install tensorflow-gpu
 ```
 >**Note:**_If having any problem installing tensorflow, follow steps on this [link](https://www.tensorflow.org/install/)._
 <br/><br/>
