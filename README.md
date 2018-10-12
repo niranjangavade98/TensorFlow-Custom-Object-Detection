@@ -42,7 +42,7 @@ pandas
 numpy
 lxml
 ```
-**Before installing these packages you have to create a virtual enviroment for Tensorflow.**
+>**Note:**_Before installing these packages you have to create a virtual enviroment for Tensorflow._
 
 
 7. Open Anaconda Command prompt
@@ -65,31 +65,31 @@ activate TensorflowVirtEnv
 CPU version: `pip install tensorflow`
 GPU version: `pip install tensorflow-gpu`
 ```
-**Note:**_If having any problem installing tensorflow, follow steps on this [link](https://www.tensorflow.org/install/)._
+>**Note:**_If having any problem installing tensorflow, follow steps on this [link](https://www.tensorflow.org/install/)._
 
 
 11. Run below command in same Command prompt to install all required packages:
 ```
 conda install -r reqs.txt
 ```
-
-
+  
+  
 12. Now change working directory by executing following command:
 ```
 cd C:\TensorflowObjDet\models\research\object-detection\
 ```
-
-
+  
+  
 13. Compile the Protobuf libraries by executing following command:
 ```
 protoc protos/*.proto --python_out=.
 ```
-
-
+  
+  
 14. Set enviroment path by executing following command:
 ```
 set PATH=%PATH%;C:\TensorflowObjDet\models;C:\TensorflowObjDet\models\research;C:\TensorflowObjDet\models\research\slim
 ```
-**Note:** _This must be executed every time you open terminal._
+>**Note:** _This must be executed every time you open terminal._
 
 
