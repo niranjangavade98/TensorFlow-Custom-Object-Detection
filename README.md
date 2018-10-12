@@ -5,10 +5,7 @@ Object detection allows for the recognition, detection of multiple objects withi
 It provides us a much better understanding of an image as a whole as opposed to just visual recognition.
 
 Some real word applications of object detection include : self-driving car, tracking objects, face detection, etc.
-
-
-
-
+<br/><br/><br/>
 ## **Requirements & Installation:**
 
 
