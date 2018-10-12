@@ -90,7 +90,7 @@ python setup.py install
 cd object-detection
 ```
 <br/><br/>
-17. Delete temporary file `tp_delete_it.txt` in directories `train`,`test` & `inference_graph` 
+18. Delete temporary file `tp_delete_it.txt` in directories `train`,`test` & `inference_graph` 
 <br/><br/><br/>
 ## **Setting train/test data & Creating `.csv` files**
 <br/><br/>
