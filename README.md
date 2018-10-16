@@ -5,6 +5,8 @@ Object detection allows for the recognition, detection of multiple objects withi
 It provides us a much better understanding of an image as a whole as opposed to just visual recognition.
 
 Some real word applications of object detection include : self-driving car, tracking objects, face detection, etc.
+<br/><br/>
+![orignal image](https://github.com/niranjangavade5/TensorFlow-Custom-Object-Detection/blob/master/test.jpg)    ![pictorial result](https://github.com/niranjangavade5/TensorFlow-Custom-Object-Detection/blob/master/pictorial_result.JPG)
 <br/><br/><br/><br/>
 ## **Installation & Requirements:**
 <br/><br/>
@@ -202,7 +204,6 @@ python export_inference_graph.py --input_type image_tensor --pipeline_config_pat
 ```
 python test_model.py C:\TensorflowModels\models\research\object_detection\test.jpg --with_image
 ```
-![orignal image](https://github.com/niranjangavade5/TensorFlow-Custom-Object-Detection/blob/master/test.jpg)
 ![pictorial result](https://github.com/niranjangavade5/TensorFlow-Custom-Object-Detection/blob/master/pictorial_result.JPG)
 <br/><br/>
 4. Execute following command while in `C:/TensorflowModels/models/research/object_detection` directory for getting `textual results`.
