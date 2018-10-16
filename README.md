@@ -202,11 +202,13 @@ python export_inference_graph.py --input_type image_tensor --pipeline_config_pat
 ```
 python test_model.py C:\TensorflowModels\models\research\object_detection\test.jpg --with_image
 ```
+![pictorial result](https://github.com/niranjangavade5/TensorFlow-Custom-Object-Detection/blob/master/pictorial_result.JPG)
 <br/><br/>
 4. Execute following command while in `C:/TensorflowModels/models/research/object_detection` directory for getting `textual results`.
 ```
 python test_model.py C:\TensorflowModels\models\research\object_detection\test.jpg --textual
 ```
+![textual result](https://github.com/niranjangavade5/TensorFlow-Custom-Object-Detection/blob/master/textual_result.JPG)
 <br/><br/>
 5. Execute following command while in `C:/TensorflowModels/models/research/object_detection` directory for getting `textual & pictorial results`.
 ```
