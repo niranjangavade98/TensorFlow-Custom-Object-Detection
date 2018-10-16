@@ -6,7 +6,9 @@ It provides us a much better understanding of an image as a whole as opposed to 
 
 Some real word applications of object detection include : self-driving car, tracking objects, face detection, etc.
 <br/><br/>
-![orignal image](https://github.com/niranjangavade5/TensorFlow-Custom-Object-Detection/blob/master/test.jpg)    ![pictorial result](https://github.com/niranjangavade5/TensorFlow-Custom-Object-Detection/blob/master/pictorial_result.JPG)
+![orignal image](https://github.com/niranjangavade5/TensorFlow-Custom-Object-Detection/blob/master/test.jpg)    
+![pictorial result](https://github.com/niranjangavade5/TensorFlow-Custom-Object-Detection/blob/master/pictorial_result.JPG)
+![textual result](https://github.com/niranjangavade5/TensorFlow-Custom-Object-Detection/blob/master/textual_result.JPG)
 <br/><br/><br/><br/>
 ## **Installation & Requirements:**
 <br/><br/>
