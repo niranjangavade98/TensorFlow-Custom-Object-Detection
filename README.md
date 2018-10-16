@@ -198,20 +198,21 @@ python export_inference_graph.py --input_type image_tensor --pipeline_config_pat
     * textual format : Gives you a brief description of classes detected on the provided image in terminal itself.
     * pictorial format : Presents the provided image with bounding boxes arround objects detected.
 <br/><br/>
-2. Execute following command while in `C:/TensorflowModels/models/research/object_detection` directory for getting `pictorial results`.
+3. Execute following command while in `C:/TensorflowModels/models/research/object_detection` directory for getting `pictorial results`.
 ```
 python test_model.py C:\TensorflowModels\models\research\object_detection\test.jpg --with_image
 ```
 <br/><br/>
-3. Execute following command while in `C:/TensorflowModels/models/research/object_detection` directory for getting `textual results`.
+4. Execute following command while in `C:/TensorflowModels/models/research/object_detection` directory for getting `textual results`.
 ```
 python test_model.py C:\TensorflowModels\models\research\object_detection\test.jpg --textual
 ```
 <br/><br/>
-4. Execute following command while in `C:/TensorflowModels/models/research/object_detection` directory for getting `textual & pictorial results`.
+5. Execute following command while in `C:/TensorflowModels/models/research/object_detection` directory for getting `textual & pictorial results`.
 ```
 python test_model.py C:\TensorflowModels\models\research\object_detection\test.jpg --textual --with_image
 ```
 > **Note :**_`--textual flag` should be provided before `--with_image` flag._
+<br/><br/>
 > **Note :**_`Path to the image file has to be modified in above commands depending on where the image file is.` flag._
 <br/><br/>
