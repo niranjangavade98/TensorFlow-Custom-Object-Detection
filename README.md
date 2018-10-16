@@ -214,5 +214,5 @@ python test_model.py C:\TensorflowModels\models\research\object_detection\test.j
 ```
 > **Note :**_`--textual flag` should be provided before `--with_image` flag._
 <br/><br/>
-> **Note :**_`Path to the image file has to be modified in above commands depending on where the image file is.` flag._
+> **Note :**_Path to the image file has to be modified in above commands depending on where the image file is._
 <br/><br/>
