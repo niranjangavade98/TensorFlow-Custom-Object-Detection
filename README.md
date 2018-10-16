@@ -188,4 +188,29 @@ python export_inference_graph.py --input_type image_tensor --pipeline_config_pat
 <br/><br/>
 2. This creates `frozen_inference_graph.pb` file in `inference_graph` directory
 <br/><br/><br/>
-### Model is ready for testing. You can write python scripts to test this model through webcam, images or video feeds as well.
+## **Testing trained model**
+<br/><br/>
+> **Note :**_test_model.py file can be used on images only, but you can use your own script to test your model on video or webcam streams_
+<br/><br/>
+1. Open test_model.py file in `C:/TensorflowModels/models/research/object_detection` directory & change value of `NUM_CLASSES` to match the number of classes you have & save the file.
+<br/><br/>
+2. Using `test_model.py` you can get results in two formats, textual format or pictorial format or both.
+    * textual format : Gives you a brief description of classes detected on the provided image in terminal itself.
+    * pictorial format : Presents the provided image with bounding boxes arround objects detected.
+<br/><br/>
+2. Execute following command while in `C:/TensorflowModels/models/research/object_detection` directory for getting `pictorial results`.
+```
+python test_model.py test.jpg --with_image
+```
+<br/><br/>
+3. Execute following command while in `C:/TensorflowModels/models/research/object_detection` directory for getting `textual results`.
+```
+python test_model.py test.jpg --textual
+```
+<br/><br/>
+4. Execute following command while in `C:/TensorflowModels/models/research/object_detection` directory for getting `textual & pictorial results`.
+```
+python test_model.py test.jpg --textual --with_image
+```
+> **Note :**_`--textual flag` should be provided before `--with_image` flag._
+<br/><br/>
